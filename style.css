@@ -1,0 +1,201 @@
+body{
+    background-color:#1C1A19 ;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#3C3A39;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-div {
+    padding : 10px 12px 10px 12px;
+}
+
+.menu-div {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+
+.logo-div > h1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.first-section {
+    padding: 120px 24px 160px 24px;
+    background: url(Illustration.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+}
+
+.first-section >h1  {
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #ff6B00;
+    font-family: 'Crete Round';
+}
+
+.first-section > h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    font-family: 'Roboto';
+
+}
+
+.first-section > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.style-img > img {
+   
+    position: absolute;
+    height: 312px;
+    right: 0;
+    bottom: -8;
+}
+
+.about-me {
+    padding: 120px 24px 160px 24px;
+    background: url(Frame.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.about-me h1{
+    font-family: 'Crete Round';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.37px;
+    color: #ff6B00;
+}
+
+.about-me p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F5F7;
+    font-family: 'Inter';
+}
+
+.button{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    padding: 12px;
+    background-color: #ff6B00;
+    width: 156px;
+    height: 48px;
+    border: none;
+
+}
+
+.knowledge{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+
+
+.knowledge ul li ul li {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42.67px;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.language, .frameworks, .skills {
+    color: white ;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    list-style: none;
+    text-align: center;
+}
+
+.knowledge ul{
+    list-style: circle;
+    margin: 0 auto; 
+    padding: 0;
+    max-width: 500px; 
+}
+
+.contact-form{
+    background-color: white;
+    padding: 120px 24px 120px 24px;
+}
+
+.contact-form h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172B4D;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    height: 48px;
+}
+
+form textarea{
+
+    border: none;
+    border-bottom: 1px solid #ccc;
+    height: 114px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    font-style: italic;
+    color: black;
+
+}
+
+#submit-btn{
+    align-self: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
