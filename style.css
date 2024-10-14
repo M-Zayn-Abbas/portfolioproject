@@ -72,14 +72,18 @@ header {
     bottom: -8;
 }
 
-.about-me {
-    padding: 120px 24px 160px 24px;
+
+
+.about-me-info{
     background: url(Frame.png);
     background-position: bottom right;
     background-repeat: no-repeat;
+    padding: 120px 24px 160px 24px;
+
 }
 
-.about-me h1{
+
+.about-me-info h1{
     font-family: 'Crete Round';
     font-weight: 400;
     font-size: 72px;
@@ -88,7 +92,7 @@ header {
     color: #ff6B00;
 }
 
-.about-me p{
+.about-me-info p{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -114,7 +118,7 @@ header {
 .knowledge{
     text-align: center;
     margin: 0 auto;
-    padding: 0;
+    padding: 120px 24px 38px 24px;
 }
 
 
@@ -137,10 +141,17 @@ header {
     line-height: 44px;
     list-style: none;
     text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.list-styling{
+    margin-right: 15px;
+    height: 20px;
+    width: auto;
 }
 
 .knowledge ul{
-    list-style: circle;
     margin: 0 auto; 
     padding: 0;
     max-width: 500px; 
@@ -186,16 +197,165 @@ form textarea{
     line-height: 24px;
     font-style: italic;
     color: black;
+    background-color: #FBF8F7;
+
+    
 
 }
+
+
 
 #submit-btn{
     align-self: center;
     margin-top: 20px;
 }
 
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #DFE1E6;
+    gap: 10px;
+    padding: 30px 0;
+    
+}
 
+.icons-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
+.bottom-line{
+    border-bottom: 4px solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: 20px;
+}
+
+.align-left{
+    justify-content: flex-start;
+}
+
+.works-section {
+    background-color: white;
+    padding: 120px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.heading-container {
+    border-bottom: 2px solid black;
+    width:80%;
+    margin-bottom: 70px;
+}
+
+.heading-container h1 {
+    font-family: 'Crete Round';
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 52px;
+}
+
+.multi-post-stories h2{
+font-family: 'Crete Round';
+font-weight: 400;
+font-size: 28px;
+}
+
+.multi-post-stories p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091E42;
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.skill {
+    border: 1.5px solid #8993A4;
+    padding: 10px 16px 10px 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #091E42;
+    text-align: center;
+}
+
+.project {
+    background: url(projectbackground.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 387px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px 0px 16px;
+    margin-bottom: -2px;
+
+}
+
+.project h2{
+    font-family: 'Crete Round';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: white;
+    margin: 0;
+}
+
+.project p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.project-skills-container{
+    display: flex;
+    gap:20px;
+}
+
+.graycolor {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.3);;
+    border: none;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center
+}
+
+.project-btn{
+    width: 100%;
+    background-color:#ff6B00;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-family: 'Inter';
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.project-container{
+    margin-bottom: 20px;
+}
 
 
 
