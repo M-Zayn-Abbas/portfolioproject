@@ -274,10 +274,9 @@ footer {
   text-align: center;
 }
 
-.all-projects-container{
+.all-projects-container {
   display: flex;
   flex-direction: column;
-
 }
 
 .project {
@@ -342,7 +341,7 @@ footer {
   margin-bottom: 20px;
 }
 
-#nav-div{
+#nav-div {
   display: none;
   color: white;
   width: 255px;
@@ -352,32 +351,31 @@ footer {
   display: flex;
   align-items: center;
   list-style: none;
-  gap:30px;
+  gap: 30px;
 }
 
-#nav-div ul li{
-font: 'Inter',serif;
-font-weight: 600;
-font-size: 15px;
-
+#nav-div ul li {
+  font: 'Inter', serif;
+  font-weight: 600;
+  font-size: 15px;
 }
 
-@media (min-width:768px){
-  #nav-div{
+@media (min-width: 768px) {
+  #nav-div {
     display: flex;
     gap: 30px;
   }
 
-  .menu-div{
+  .menu-div {
     display: none;
   }
 
-  header{
+  header {
     padding-left: 100px;
     padding-right: 200px;
   }
 
-  .first-section{
+  .first-section {
     width: 350px;
     padding-left: 200px;
     background: url(firstsectiondesktopimg.png);
@@ -386,74 +384,71 @@ font-size: 15px;
     background-position: right;
   }
 
-  #work-section-img-container >img {
+  #work-section-img-container > img {
     width: 684px;
   }
 
-  .multi-post-stories{
+  .multi-post-stories {
     width: 350px;
   }
 
-  #work-section-img-container{
+  #work-section-img-container {
     display: flex;
     width: 100vw;
     justify-content: space-evenly;
     margin-bottom: 50px;
   }
 
-  
 
-  .project-container{
+
+  .project-container {
     width: 343px;
   }
 
-  .all-projects-container{
+  .all-projects-container {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
   }
 
-  .about-me-info{
+  .about-me-info {
     width: 600px;
     background-image: url(aboutmesectiondesktopimg.png);
     background-repeat: no-repeat;
     padding-right: 900px;
-  
-    
   }
 
-  .knowledge{
+  .knowledge {
     margin-top: 200px;
   }
 
-  .knowledge ul{
+  .knowledge ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
 
-
-
-  .knowledge ul li ul{
+  .knowledge ul li ul {
     display: flex;
     flex-direction: column;
     width: 300px;
   }
 
-  .contact-form{
+  .contact-form {
     display: flex;
   }
 
-  form{
+  form {
     width: 1500px;
-    margin:0 50px  }
+    margin: 0 50px;
+  }
 
-    .contact-form h2{
-      margin-left: 40px;
-    }
+  .contact-form h2 {
+    margin-left: 40px;
+  }
 
-    .bottom-line{
-      display: none;
-    }
+  .bottom-line {
+    display: none;
+  }
 }
