@@ -274,11 +274,18 @@ footer {
   text-align: center;
 }
 
+.all-projects-container{
+  display: flex;
+  flex-direction: column;
+
+}
+
 .project {
   background: url(projectbackground.png);
   background-repeat: no-repeat;
   object-fit: cover;
   height: 387px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -319,7 +326,7 @@ footer {
 }
 
 .project-btn {
-  width: 95.5%;
+  width: 327px;
   background-color: #ff6b00;
   color: white;
   border: none;
@@ -333,4 +340,120 @@ footer {
 
 .project-container {
   margin-bottom: 20px;
+}
+
+#nav-div{
+  display: none;
+  color: white;
+  width: 255px;
+}
+
+#nav-div ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap:30px;
+}
+
+#nav-div ul li{
+font: 'Inter',serif;
+font-weight: 600;
+font-size: 15px;
+
+}
+
+@media (min-width:768px){
+  #nav-div{
+    display: flex;
+    gap: 30px;
+  }
+
+  .menu-div{
+    display: none;
+  }
+
+  header{
+    padding-left: 100px;
+    padding-right: 200px;
+  }
+
+  .first-section{
+    width: 350px;
+    padding-left: 200px;
+    background: url(firstsectiondesktopimg.png);
+    padding-right: 1000px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  #work-section-img-container >img {
+    width: 684px;
+  }
+
+  .multi-post-stories{
+    width: 350px;
+  }
+
+  #work-section-img-container{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+
+  
+
+  .project-container{
+    width: 343px;
+  }
+
+  .all-projects-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .about-me-info{
+    width: 600px;
+    background-image: url(aboutmesectiondesktopimg.png);
+    background-repeat: no-repeat;
+    padding-right: 900px;
+  
+    
+  }
+
+  .knowledge{
+    margin-top: 200px;
+  }
+
+  .knowledge ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+
+  .knowledge ul li ul{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .contact-form{
+    display: flex;
+  }
+
+  form{
+    width: 1500px;
+    margin:0 50px  }
+
+    .contact-form h2{
+      margin-left: 40px;
+    }
+
+    .bottom-line{
+      display: none;
+    }
 }
